@@ -1,0 +1,67 @@
+.loginPage{
+	background-color:  #424250;
+	padding: 5% 12% 0 12%;
+	.loginLogo{
+		display: flex;
+		flex-direction: raw;
+		justify-content: center;
+		align-items: center;
+		z-index: -1;
+		.loginTitle{
+			font-family: 'Brush Script MT';
+			font-size: 45px;
+			font-weight: bold;
+			color: white;
+			text-shadow: 2px 2px #1EB980;
+		}
+	}
+	.loginType{
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 5%;
+		color: #1EB980;
+		font-family: 'Consolas';
+		font-weight: bold;
+		font-size: 20px;
+		.loginTypeWord{
+			min-height: 80px;
+			max-height: 160px;
+			letter-spacing: 3px;
+			.loginInput{
+				min-height: 40px;
+				max-height: 80px;
+				border-bottom: 1px solid white;
+				color: white;
+				letter-spacing: 0;
+				font-weight: 200;
+			}
+		}
+	}
+	.loginPress{
+		margin: 0 12% 0 12%;
+		.loginButton{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			border: none;
+			border-radius: 25px;
+			background-color: white;
+			margin-bottom: 5%;
+			min-height: 50px;
+			max-height: 100px;
+			font-family: 'Consolas';
+			font-weight: bold;
+			color: #1EB980;
+			letter-spacing: 4px;
+		}
+	}
+}
+
+#loginButtonMain{
+	background-color: #1EB980;
+	color: white;
+}
+
+#loginImage{
+	padding-top: 5%;
+}

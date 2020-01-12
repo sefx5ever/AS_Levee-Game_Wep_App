@@ -1,0 +1,72 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/login/login",
+		    "style" : {
+				"app-plus": {
+					"titleNView": false //打包app 要加上这个 禁用原生导航栏  
+				}  
+			}
+		}
+		,{
+			"path": "pages/backenduser/backenduser",
+			"style": {
+				"app-plus": {  
+					"titleNView": false //打包app 要加上这个 禁用原生导航栏  
+				}  
+			}
+		}
+		,{
+			"path": "pages/story/story",
+			"style": {
+				"app-plus": {  
+					"titleNView": false //打包app 要加上这个 禁用原生导航栏  
+				}  
+			}
+		}
+	    ,{
+            "path" : "pages/rule/rule",
+            "style" : {
+				"app-plus": {
+					"titleNView": false //打包app 要加上这个 禁用原生导航栏  
+				}  
+			}
+        }
+		,{
+		    "path" : "pages/game/game_without_chat",
+		    "style" : {
+				"app-plus": {
+					"titleNView": false //打包app 要加上这个 禁用原生导航栏  
+				}  
+			}
+		}
+		,{
+		    "path" : "pages/game/game_with_chat",
+		    "style" : {
+				"app-plus": {
+					"titleNView": false //打包app 要加上这个 禁用原生导航栏  
+				}  
+			}
+		}
+		,{
+		    "path" : "pages/chat/chat",
+		    "style" : {
+				"app-plus": {
+					"titleNView": false //打包app 要加上这个 禁用原生导航栏  
+				} 
+			}
+		}
+		,{
+		    "path" : "pages/final/final",
+		    "style" : {
+				"app-plus": {
+					"titleNView": false //打包app 要加上这个 禁用原生导航栏  
+				} 
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

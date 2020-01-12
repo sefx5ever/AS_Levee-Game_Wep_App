@@ -1,0 +1,84 @@
+.story{
+	display: flex;
+	flex-direction: column;
+	.storySection{
+		position: fixed;
+		z-index: 999;
+		.storyTitle{
+			text-align: center;
+			text-decoration: underline;
+			letter-spacing: 5px;
+			font-size: 50px;
+			font-weight: bolder;
+			font-family: 'Georgia';
+			color: #424250;
+			margin: 5% 0 5% 0;
+			/*border white with light shadow*/
+			text-shadow: 
+			 1px  1px     #fff, 
+			-1px  1px     #fff, 
+			 1px -1px     #fff, 
+			-1px -1px     #fff,
+			 1px  1px 5px #555;
+		}
+		.storyText{
+			font-size: 20px;
+			font-family: 'Comic Sans MS';
+			border: solid 5px;
+			border-radius: 25px;
+			border-color: white;
+			padding: 5%;
+			margin: 0 5% 0 5%;
+			color: white;
+			line-height: 40px;
+			background-color: #6bad95;
+			opacity: 0.8;
+		}
+		.storyButton{
+			color: white;
+			background-color: #1EB980;
+			font-size: 20px;
+			font-family: 'Consolas';
+			margin: 2% 0 0 5%;
+			border-radius: 10px;
+		}
+		.storyButton:hover{
+			background-color: white;
+			color: black;
+		}
+	}
+	.storyImage{
+		overflow: hidden;
+		opacity: 0.8;
+	}
+}
+
+.ruleTextBasic{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	margin: 5% 5% 0 5%;
+	box-shadow: 0px 5px 15px grey;
+	.ruleTextBasicHint{
+		font-weight: bold;
+		font-family: 'Comic Sans MS';
+		font-size: 25px;
+		text-align: center;
+		color: white;
+		border: none;
+		background: -webkit-linear-gradient(left top,#1BC3FC,#1E68FC);
+		background: -o-linear-gradient(bottom right,#1BC3FC,#1E68FC);
+		background: -moz-linear-gradient(bottom right,#1BC3FC,#1E68FC);
+		background: linear-gradient(to bottom right,#1BC3FC,#1E68FC);
+	}
+	.ruleTextBasicText{
+		text-align: center;
+		font-size: 17px;
+		font-family: "Helvetica Neue";
+		font-weight: 600;
+		color: black;
+		padding: 3%;
+		border: none;
+		background-color: white;
+	}
+}
