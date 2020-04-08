@@ -34,11 +34,13 @@
 				type: Object,
 				default() {
 					return {
-						apiKey: "AIzaSyA2P0T3COrV1DHStIEBLnJoIuY4LunGmNg",
-						authDomain: "fir-test-84116.firebaseapp.com",
-						databaseURL: "https://fir-test-84116.firebaseio.com",
-						projectId: "fir-test-84116",
-						storageBucket: "fir-test-84116.appspot.com"
+						var firebaseConfig = {
+							apiKey: "<API KEY>",
+							authDomain: "<AUTH DOMAIN>",
+							databaseURL: "<DB URL>",
+							projectId: "<PROJECT ID>",
+							storageBucket: "STORAGE BUCKET"
+						};
 					};
 				}
 			},
